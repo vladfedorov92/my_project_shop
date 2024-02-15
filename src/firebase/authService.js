@@ -24,3 +24,10 @@ export async function signInFirebase(signInData) {
 export async function signOutFirebase() {
     await signOut(auth);
 }
+export const signUpInFirebase=(signUpData)=>{
+    createUserWithEmailAndPassword(auth,signUpData.email,signUpData.password)
+        .then(response=>{
+            alert("registration successful")
+        }).catch(e=> console.log(e.message));
+    return signUpData.email;
+}
