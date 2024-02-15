@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {AppBar, Box, Tab, Tabs} from "@mui/material";
 import {Link, Outlet} from "react-router-dom";
 

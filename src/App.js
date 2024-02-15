@@ -12,8 +12,6 @@ import ErrorPage from "./components/pages/ErrorPage";
 import Dairy from "./components/pages/Dairy";
 import Bread from "./components/pages/Bread";
 import NavDesktop from "./components/navigation/NavDesktop";
-import Back from "./components/pages/Back";
-import {useState} from "react";
 import {useSelector} from "react-redux";
 
 function App() {
