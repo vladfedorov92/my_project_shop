@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+.navigator-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 80vw;
+}
+.navigator-item{
+  margin-left: 1vw;
+  font-size: 1.5rem;
+  }
+.active{
+  background-color: deepskyblue;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+.nav-sublist{
+  flex-direction: column;
+}
