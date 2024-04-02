@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Dairy = () => {
-    return (
-        <div>
-            Dairy
-        </div>
-    );
+  return <div>Dairy</div>;
 };
 
 export default Dairy;

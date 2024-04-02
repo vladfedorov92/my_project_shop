@@ -1,20 +1,20 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const codeSlice = createSlice({
-    name: "code",
-    initialState: {
-        code: "OK"
+  name: "code",
+  initialState: {
+    code: "OK",
+  },
+  reducers: {
+    setCode: (state, action) => {
+      state.code = action.payload;
     },
-    reducers: {
-        setCode: (state, action) => {
-            state.code = action.payload;
-        },
-        resetCode: (state) => {
-            state.code = "OK";
-        }
-    }
+    resetCode: (state) => {
+      state.code = "OK";
+    },
+  },
 });
 
-export const {setCode, resetCode} = codeSlice.actions;
+export const { setCode, resetCode } = codeSlice.actions;
 
 export default codeSlice.reducer;
